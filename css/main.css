@@ -1,0 +1,1651 @@
+/* ====================================================
+  Template Name: WordPress Fair HTML5 landing page
+  Template URI: http://dreamroadtech.com/templates/morix-preview/
+  Description: WordPress Fair HTML5 landing page
+  Author: Abc It Park
+  Author URI: http://www.abcitpark.com
+  version: 1.0
+==================================================== */
+
+/* CSS Index
+------------------------------------
+
+01. Template Default CSS 
+02. header css
+
+
+
+
+
+
+*/
+
+/* ====================================================
+  Google Fonts
+==================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,100;1,500&display=swap');
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+body {
+  /* font-family: 'Abhaya Libre', serif; */
+font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.btn:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Abhaya Libre', serif;
+  font-weight: 500;
+}
+
+p {
+  line-height: 32px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+li a {
+  font-size: 17px;
+  color: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.services-padd-top {
+  padding-top: 70px;
+}
+.services-padd-bott {
+  padding-bottom: 70px;
+}
+.top-ee {
+  position: relative;
+  top: -14%;
+}
+
+/* ====================================================
+   Author's custom styles
+   ==================================================== */
+
+/* ..................................
+ 02. topheader css 
+.................................. */
+
+section.tophader {
+  background: #f6f5f5;
+  padding: 16px 0;
+  border-bottom: 2px solid #f3ecec;
+}
+
+ul.tophader-icon-right {
+  float: right;
+}
+
+.tophader-icon-right li {
+  color: #9b9b9b;
+}
+.tophader-icon-right li a {
+  font-size: 19px;
+  padding: 20px 10px;
+
+}
+
+.tophader-icon-right li a:hover{
+ background-color: #eb2f06;
+}
+ul.tophader-itam-left li {padding: 0 20px;
+  text-transform: uppercase;
+  color: #545353;
+}
+
+ul.tophader-itam-left {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+/* ..................................
+ 01. toplogo CSS 
+.................................. */
+.logo-itam {
+  margin: auto;
+  display: table;
+}
+
+section.top-logo {
+  margin: 23px 0;
+}
+
+.logo-itam img {
+  height: auto;
+  align-items: center;
+  margin-left: 45px;
+}
+
+p.logo-contact-itam {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 12px;
+  color: #5a5757;
+}
+
+/* ..................................
+ 01. menu CSS 
+.................................. */
+section.main-menu {
+  background: #333333;
+}
+.menu-item1 li a {
+  font-size: 19px;
+  font-family: 'Abhaya Libre', serif;
+  font-weight: 300;
+  color: #e4e4e4;
+}
+
+
+.menu-item1 li {
+  padding: 0px 11px;
+  text-transform: uppercase;
+}
+.search-box {
+  position: relative;
+  left: 27%;
+}
+
+.search-btn {
+  float: right;
+  text-decoration: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: #dedecd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background .3s;
+  font-size: 22px;
+}
+
+.search-btn:hover{
+	background: #fff;
+}
+
+.search-box:hover > .search-text{
+	width: 140px;
+}
+
+.search-text:focus{
+	width: 140px;
+}
+
+.search-text{
+	float: left;
+	background: none;
+	border: none;
+	outline: none;
+	padding: 0; 
+	color: #fff;
+	font-size: 15px;
+	line-height: 40px;
+	width: 0px;
+	transition: .6s;
+}
+.nav-item a {
+  font-size: 15px;
+}
+.nav-item:before {content: '';
+  top: 13px;
+  left: 0;
+  position: absolute;
+  border-right: 2px solid #4b4747;
+  width: 100%;
+  height: 50%;
+}
+
+
+.nav-item1:after {content: '';
+  top: 13px;
+  left: 0;
+  position: absolute;
+  border-left: 2px solid #4b4747;
+  width: 100%;
+  height: 50%;
+}
+
+li.nav-item {
+  position: relative;
+}
+
+
+
+
+/* ..................................
+ 01. home CSS 
+.................................. */
+
+.home {
+  background-image: url(../img/logo-img1/1_homepage-Recovered.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  margin-top: 50px;
+}
+
+
+.example_e {
+  border: none;
+  background: #eb2f06;
+  color: #ffffff !important;
+  font-weight: 500;
+  padding: 12px 25px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  margin-top: 20px;
+}
+
+  .example_e:hover {
+    color: #404040 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+    }
+
+
+    .home-contact-itam {
+      width: 47%;
+      margin: auto;
+      text-align: center;
+      background: #0e0c0cc7;
+      padding: 33px 0;
+      position: relative;
+      top: 100px;
+      color: white;
+      height: 450px;
+  }
+
+  p.desgn {font-weight: 500;font-size: 17px;line-height: 44px;}
+
+  .home-contact-itam h3 {
+      font-weight: 800;
+      font-size: 40px;
+      text-transform: capitalize;
+      letter-spacing: 3px;
+  }
+
+
+  [data-action="stop"] {
+    display: none;
+}
+
+
+
+
+
+
+/* ..................................
+ 01. photo CSS 
+.................................. */
+.gallery-area {
+  padding: 30px 0 65px 0;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gallery-item:hover .gallery-content {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+}
+
+.gallery-item .gallery-content {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  bottom: 20px;
+  right: 20px;
+  border: 1px solid #eb2f06;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.gallery-area .section-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.POSS {
+  position: absolute;
+  left: 101px;
+  top: 46px;
+}
+
+
+/* ..................................
+ 01. footer CSS 
+.................................. */
+
+.blog-itam {
+  text-align: center;
+}
+
+.blog-contact h6 {
+  text-align: left;
+}
+.right-contact {
+  text-align: center;
+}
+
+.blog-itam {
+  margin-top: 39px;
+}
+
+img.blog-img2 {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.pagination {
+  margin: 40px;
+  margin-left: 102px;
+}
+.pagination ul {
+	padding:0px;
+	margin:0px;
+}
+.pagination ul li {
+	list-style:none;
+	display:inline-block;
+}
+
+.pagination ul li a, .pagination ul li span.current, .pagination ul li span.nav-prev {
+  background: #eeeeee none repeat scroll 0 0;
+  border: 0 none;
+  border-radius: 33px;
+  color: #191919;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 23px;
+  margin: 0;
+  padding: 5px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out 0s;
+  vertical-align: middle;
+}
+.pagination ul li a:hover, .pagination ul li span.current {
+  background: #eb2f06;
+  color: #fff;
+  outline: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.searchbar {
+  height: 51px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 10px;
+  width: 260px;
+  border: 2px solid black;
+  margin: auto;
+}
+  .search_input{
+  color: #de0b0b;
+  border: 0;
+  outline: 0;
+  background: none;
+  }
+
+  .left-pass {
+    float: left !important;
+    margin-left: 98px;
+    margin-top: 10px;
+}
+
+  .searchbar:hover > .search_icon{
+  background: white;
+  color: #e74c3c;
+  }
+
+  .search_icon {
+    height: 40px;
+    width: 40px;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #060505;
+    text-decoration: none;
+    font-size: 21px;
+    margin-top: -4px;
+}
+  img.blog-img {
+    width: 100%;
+}
+
+p.blog-title {
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #ff3f34;
+  margin-bottom: -5px;
+}
+
+.blog-itam h2 {
+  font-size: 27px;
+  line-height: 45px;
+  margin-bottom: 13px;
+}
+h1.number12 {
+  font-size: 16px;
+  line-height: 29px;
+  color: #777777d1;
+}
+.about {
+  margin-top: 32px;
+  position: relative;
+}
+.about h2 {
+  font-size: 24px;
+  line-height: 45px;
+}
+
+.about:before {
+  position: absolute;
+  content: url(../img/right-blog/border11.png);
+  z-index: 1;
+  top: 29px;
+  left: 74px;
+  width: 200px;
+  height: 100%;
+}
+.right-contact img {
+}
+.right-contact p {
+  font-size: 14px;
+  line-height: 25px;
+  width: 233px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.con-itam12 {
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #b7b5b5;
+}
+ span {
+  color: #eb2f06;
+}
+.left-pass {
+  
+}
+.border-blog-icon {
+  align-items: center;
+  border: 2px solid #5654543b;
+}
+p.icon-con {
+  font-size: 15px;
+  color: #655f5f;
+  margin-bottom: 0px;
+  margin-left: -24%;
+}
+span.con-itam {
+  font-weight: 600;
+  color: #eb2f06ba;
+  margin: 19px 0;
+  display: inline-block;
+  margin-left: -143px;
+}
+p.date-itam {
+  font-size: 13px;
+  line-height: 22px;
+  margin-top: 20px;
+}
+.number {
+  background: #eb2f06;
+  border-radius: 200%;
+  width: 31px;
+  height: 31px;
+  font-size: 22px;
+  color: white;
+  align-items: center;
+  margin-left: 30px;
+}
+span.latter1 {
+  font-size: 40px;
+  color: black;
+}
+.blog-contact h6 {
+  font-size: 15px;
+  line-height: 32px;
+}
+
+.tophader li a {
+  font-size: 16px;
+  padding: 7px 10px;
+}
+.tophader li a:hover {
+  background-color: #eb2f06;
+  padding: 19px 6px;
+  transition: 2.3s;
+}
+.Instagram {
+  margin-top: 41px;
+  margin-bottom: 23px;
+}
+
+
+.img144 {
+  margin: 10px 6px !important;
+ 
+}
+
+
+.ads-cont {
+  position: absolute;
+  width: 183px;
+  top: 42%;
+  left: 24%;
+  color: #ffffff7a;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+img.ads {
+  width: 100%;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.xp-categories{
+  padding-top: 40px;
+}
+.xp-categories ul li {
+  border-bottom: 1px solid #eeeeee;
+  padding: 14px 0 11px;
+  display: block;
+}
+.xp-categories ul li:last-child{
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.xp-categories ul li a {
+  color: #777777;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  position: relative;
+  padding-left: 19px;
+  text-align: left;
+}
+
+.xp-categories ul li a span{
+  float: right;
+}
+.xp-img {
+  position: relative;
+  margin-top: 30px;
+}
+.button {
+  background-color: #eb2f06;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  margin: 35px -10px;
+  cursor: pointer;
+  height: 49px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  width: 301px;
+  border: 2px solid black;
+  line-height: 22px;
+}
+h4.sub {
+  width: 200px;
+  font-size: 14px;
+  margin: auto;
+  line-height: 22px;
+  color: #8a8a8a;
+}
+.sub-wi {
+  width: 300px;
+  margin: auto;
+  position: relative;
+  top: 20px;
+}
+
+.xp-img12 {
+  margin: auto;
+  display: list-item;
+  position: relative;
+  top: 125px;
+  left: 19px;
+}
+.social h4 {
+  text-align: left;
+  font-size: 17px;
+  text-transform: capitalize;
+  margin: 18px 0;
+}
+
+.social img {
+  width: 40px;
+}
+.my-nav{
+ position: fixed;
+ width: 100%;
+ top: 0;
+ left: 0;
+ z-index: 1000;
+}
+
+
+
+
+.post_tags {
+  text-align: center;
+  margin-top: 30px;
+}
+.post_tags a {
+  background: #eeeeee none repeat scroll 0 0;
+  border-radius: 33px;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 22px;
+  margin: 0 0 10px;
+  padding: 4px 20px;
+}
+
+.post_tags a:hover {
+	background:#eb2f06;
+	color:#fff;	
+	border-color:#eb2f06;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ..................................
+ 01. footer CSS 
+.................................. */
+
+
+.sidebar-post{
+	list-style-type:none;
+	margin: 23px 0;
+	padding:0;
+}
+.sidebar-post li{
+	margin-bottom:20px;
+	padding-bottom:20px;
+	border-bottom:1px solid #efefef;
+}
+
+.image-thumb{
+	width: 95px;
+	float:left;
+}
+.post-text{
+	overflow:hidden;
+	padding:0 0 0 20px;
+	text-align: left;
+}
+.post-text h4{
+	margin:0 0 8px 0;
+	text-transform:capitalize;
+	font-weight:400;
+}
+.post-date{
+	font-style:italic;
+	margin:0 5px 0 0;
+	display:inline-block;
+	font-size: 11px;
+}
+
+
+
+
+/* ..................................
+ 01. footer CSS 
+.................................. */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ..................................
+ 01. footer CSS 
+.................................. */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ..................................
+ 01. footer CSS 
+.................................. */
+
+section.footer {
+    background: #f1f0f0;
+    padding: 30px 0;
+    margin-top: 68px;
+}
+.border-footer {
+  border-bottom: 2px solid #d0c9c9;
+}
+p.logo-contact-itam12 {
+  font-size: 17px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #191717;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+ul.tophader-itam-left22 {
+  float: right;
+  align-items: center;
+  margin-top: 26px;
+}
+
+ul.tophader-itam-left22 li {
+  padding: 0 15px;
+  font-size: 11px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #565555;
+}
+ul.tophader-itam-left22 li a {
+  font-size: 13px;
+}
+
+
+.flot-12 {
+  float: left !important;
+  margin-top: 20px;
+  font-size: 11px;
+}
+
+h3.mail-box {
+  text-align: right;
+  font-size: 17px;
+  line-height: 22px;
+  margin-top: 22px;
+  color: #464545;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ..................................
+ 01. home2 CSS 
+.................................. */
+
+
+
+
+
+
+.home-contact-itam2 {
+  top: 309px;
+  position: relative;
+  height: 624px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+/* ...............................................
+03. slider CSS
+............................................... */
+.slider-area,
+.slider-area-2 {
+  position: relative;
+  margin-top: 50px;
+}
+
+.prev-main,
+.next-main,
+.slider-area-2 .prev-main,
+.slider-area-2 .next-main {
+  position: absolute;
+  font-size: 40px;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  transform: translateY(-50%);
+  transition: 0.3s;
+}
+
+
+.next-main {
+  right: 10%;
+  top: 83%;
+}
+
+.slider-area-2 .prev-main {
+  top: unset;
+  left: 5%;
+  bottom: 15%;
+}
+
+.slider-area-2 .next-main {
+  top: unset;
+  right: 5%;
+  bottom: 15%;
+}
+
+.prev-main:hover,
+.next-main:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.slider {
+  background-size: cover;
+  background-position: center;
+  height: 660px;
+  width: 100%;
+  position: relative;
+}
+
+.slider-1 {
+  background-image: url(../img/slider/slide-1.jpg);
+}
+
+.slider-content,
+.slider-content-2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 60px 0;
+  color: #fff;
+  width: 570px;
+  height: 287px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.slider-content-2 {
+  top: unset;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  width: 100%;
+}
+
+.single-large-slider-post .slider-content {
+  background: none;
+  left: 50%;
+  top: 75%;
+  width: auto;
+  height: auto;
+}
+
+.slider-content h5,
+.slider-content-2 h5 {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.slider-content-2 h5 {
+  color: #ff3f34;
+}
+
+.slider-content h1,
+.slider-content-2 h1 {
+  font-size: 26px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 15px;
+}
+
+.slider-content p,
+.slider-content-2 p {
+  font-size: 11px;
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-style: italic;
+  margin: 10px 0 30px 0;
+}
+
+.main-btn {
+  width: 131px;
+  height: 38px;
+  display: inline-block;
+  background-color: #ff3f34;
+  text-transform: uppercase;
+  line-height: 38px;
+  font-size: 10px;
+  overflow: hidden;
+}
+
+.main-btn span {
+  background: transparent;
+  box-shadow: 0 0 0px transparent;
+  z-index: 9;
+  transition: 0.4s;
+}
+
+.main-btn:hover span {
+  background: #de2600;
+  box-shadow: 0 0 0 40px #de2600;
+}
+
+.single-slider-post,
+.single-large-slider-post {
+  position: relative;
+  cursor: pointer;
+}
+
+.single-large-slider-post {
+  cursor: grab;
+}
+
+.single-slider-post:before,
+.single-large-slider-post:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  transition: 0.45s;
+}
+
+.single-large-slider-post:before {
+  background: rgba(43, 43, 43, 0.7);
+}
+
+.single-slider-post:hover:before,
+.single-large-slider-post:hover:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0.2)50%, rgba(0, 0, 0, 0)70%, rgba(0, 0, 0, 0)100%);
+}
+
+.single-large-slider-post:hover:before {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.6) 40%, rgba(0, 0, 0, 0.2)60%, rgba(0, 0, 0, 0)70%, rgba(0, 0, 0, 0)100%);
+}
+
+.single-slider-post img,
+.single-large-slider-post img {
+  width: 100%;
+  height: auto;
+}
+
+.single-slider-post .meta-data {
+  position: absolute;
+  top: 70%;
+  color: #fff;
+  padding: 0 30px;
+}
+
+.single-slider-post .meta-data h5 {
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.single-slider-post .meta-data h3 {
+  font-size: 26px;
+  font-family: "Abhaya Libre";
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.single-slider-post .meta-data span {
+  font-size: 11px;
+  font-weight: 300;
+  font-style: italic;
+}
+.prev-main {
+  left: 10%;
+  top: 83%;
+}
+
+
+/* ..................................
+ 01. about CSS 
+.................................. */
+
+.about-us {
+  position: relative;
+}
+.about-us1:before {
+  content: '';
+  position: absolute;
+  border-bottom: 2px solid red;
+  top: -32px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.px-abut-us {
+  margin: 30px 0;
+}
+
+
+.about-us h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+
+.px-abut-us p {
+  font-size: 12px;
+  line-height: 27px;
+  font-weight: 500;
+  color: #948b8b;
+}
+h4.cont-bg {
+  background: #f3f3f3;
+  text-align: center;
+  width: 602px;
+  margin: auto;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px;
+  line-height: 30px;
+}
+.img1 {
+  width: 68%;
+}
+
+.px-cont p {
+  font-size: 12px;
+  line-height: 27px;
+  font-weight: 500;
+  color: #948b8b;
+}
+
+.singtur {
+  width: 300px;
+  margin: auto;
+}
+ul.tophader-icon-right1.about-center {
+  padding-top: 20px;
+}
+ul.tophader-icon-right1 li {
+  padding: 0px 10px;
+}
+
+ul.tophader-icon-right1 li a {
+  color: #9b9b9b;
+}
+
+
+.grid-item {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ..................................
+ 01. Gallery CSS 
+.................................. */
+
+
+
+
+
+
+.px-Gallery-us {
+  
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+h4.Gallery-bg {
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 600;
+  color: #908e8e;
+}
+
+span.gall-span {
+  color: #2b2b2b;
+}
+
+.px-Gallery {
+  
+  margin: 0 auto;
+  margin-top: 43px;
+}
+
+.px-Gallery p {
+  font-size: 15px;
+  color: #ad8e8e;
+}
+
+section.home111 {
+  margin-top: 30px;
+  margin-bottom: 55px;
+}
+
+
+.about-us1 h5 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.font-color12 {
+  color: #c1c1c1;
+}
+
+
+/* ..................................
+ 01. Gallery CSS 
+.................................. */
+
+
+
+
+
+.left-cont12 {
+  text-align: left;
+  margin-top: 32px;
+}
+.left-cont12 h2 {
+  font-size: 27px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+span.symble {
+  float: left;
+  font-size: 150px;
+  line-height: 132px;
+  color: #ededed;
+}
+blockquote {
+  float: right;
+  width: 512px;
+  font-size: 18px;
+  line-height: 29px;
+  font-weight: 600;
+  text-transform: inherit;
+  margin-top: 26px;
+}
+.quote {
+  text-align: center;
+  border-bottom: 2px solid #ededed;
+  border-top: 2px solid #ededed;
+  height: 113px;
+  margin: 30px 0;
+}
+img.img-single {
+  width: 100%;
+  margin-top: 106px;
+}
+
+.ma-top {
+  margin-top: 30px;
+}
+
+.single-blog-itme {
+  margin: 64px 0;
+}
+
+.blog-headen h2 {
+  text-align: center;
+  font-size: 29px;
+  line-height: 87px;
+  text-transform: inherit;
+  color: #2b2b2b;
+}
+
+img.blog-img1 {
+  width: 100%;
+}
+
+.blog-item-img h3 {
+  font-size: 18px;
+  line-height: 45px;
+  margin-top: 5px;
+}
+
+.blog-item-img p {
+  font-size: 11px;
+  line-height: 0px;
+  margin: 0;
+  color: #a19e9d;
+}
+
+
+p.comm {
+  text-align: left;
+  font-size: 15px;
+  line-height: 45px;
+  color: #2b2b2b;
+  font-weight: 500;
+}
+img.comm-icon {
+  float: left;
+  margin-left: 74px;
+  margin-top: -3px;
+}
+.cment-right-2 {
+  text-align: right;
+}
+
+p.comm-right {
+  font-size: 13px;
+  line-height: 33px;
+  font-weight: 500;
+  position: relative;
+}
+
+
+
+p.comm-right:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 105px;
+  width: 54%;
+  height: 100%;
+  border-bottom: 1px solid #c1c0c0;
+}
+
+
+.comment-img {
+  float: left;
+}
+
+.comment-text {
+  
+  margin-left: 70px;
+}
+.comment-text {
+  margin-left: 70px;
+  width: 700px;
+}
+.comment-text p {
+  font-size: 15px;
+  line-height: 0px;
+  margin: 0;
+  color: #a19e9d;
+}
+.comment-text h6 {
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 24px;
+  color: #c1c0c0;
+}
+
+.comm-border {
+  position: relative;
+}
+
+
+.comm-border:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 106%;
+  height: 100%;
+  border-bottom: 1px dotted #c1c0c0;
+}
+
+.cment-right-12 {
+  margin: 39px 0;
+}
+
+.comment-text h2 {
+  font-size: 23px;
+  line-height: 45px;
+  text-transform: capitalize;
+}
+
+.left-coment {
+  left: 56px;
+  position: relative;
+}
+.comment-form-itam {
+  margin-bottom: 102px;
+}
+.btn-danger12 {
+  background: #eb2f06;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.about {
+  margin-top: 32px;
+  position: relative;
+  margin-bottom: 43px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-us122:before {
+  content: '';
+  position: absolute;
+  border-bottom: 2px solid red;
+  top: -13px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.cont-border-item {
+  border: 2px solid #f2f2f2;
+  ;
+  border-radius: 50px;
+  padding: 0px;
+}
+
+.con-butt-itam h3 {
+  font-size: 18px;
+  font-weight: 700;
+  background: #f2f2f2;
+  padding: 10px;
+  width: 200px;
+  border-radius: 50px;
+  align-items: center;
+  display: table-cell;
+}
+
+
+img.img-contact- {
+  width: 100%;
+  height: 46vh;
+  margin-top: 65px;
+}
+
+h6.cnt122 {
+  font-size: 16px;
+  line-height: 29px;
+}
+
+.mae-con-top {
+  margin-top: 50px;
+}
+
+.color-33 {
+  color: white;
+}
+
+.mar-form-con {
+  margin-top: 63px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box img{
+
+width: 100%;
+height: auto;
+display: block;
+}
+#macy{
+  opacity: 0;
+transition: all 0.5s;
+
+
+}
+
+.show{
+
+opacity: 1 !important;
+
+
+}
+
+
+
+
+
+.home-contact-itam4 {
+  background-image: url(../img/single/4_homepage.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 64vh;
+  position: relative;
+}
+
+.home-contact-itam44 {
+  position: absolute;
+  top: 36%;
+  left: 30%;
+  text-align: center;
+  color: white;
+}
+
+.prev-main1 {
+  top: 100%;
+}
+.next-main1 {
+  top: 100%;
+}

@@ -1,0 +1,802 @@
+/* XL Device :1200px. */
+@media (min-width: 1700px) and (max-width: 1920px) {
+    .home {
+        
+        margin-top: -10px;
+        background-size: contain;
+    }
+
+        .home-contact-itam {
+            top: 358px;
+           height: 671px;
+        }
+        .services-padd-top {
+          
+            margin-top: -84px;
+        }
+
+        .home-contact-itam2 {
+            width: 100%;
+            position: relative;
+            top: 510px;
+            height: 861px;
+        }
+        .container12 {
+            margin-top: 156px;
+        }
+        .homg3-img {
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 65vh;
+        }
+
+        .home3 {
+           
+            height: 69vh;
+            
+        }
+        .home4 {
+            width: 100%;
+            height: 62vh;
+        }
+
+}
+/* XL Device :1500px. */
+@media (min-width: 1500px) and (max-width: 1700px) {
+    .home {
+       
+        height: 73vh;
+       
+    }
+    
+    .home-contact-itam2 {
+        width: 100%;
+        position: relative;
+        height: 668px;
+    }
+
+    .serviceshome2 {
+        margin-top: 60px;
+        padding-top: 0px;
+    }
+
+    .prev-main {
+        left: 10%;
+        top: 66%;
+    }
+    .next-main {
+        right: 10%;
+        top: 63%;
+    }
+
+
+}
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .home {
+       
+        height: 51vh;
+       
+    }
+    .prev-main {
+        left: 10%;
+        top: 44%;
+    }
+    .next-main {
+        right: 10%;
+        top: 44%;
+    }
+    .search-box {
+        left: 11%;
+    }
+    .home-contact-itam2 {
+        top: 163px;
+        position: relative;
+        height: 472px;
+        width: 100%;
+    }
+    .about:before {
+       
+        left: 45px;
+     
+    }
+    .POSS {
+        position: absolute;
+        left: 60px;
+        top: 29px;
+    }
+    .photo-itma-cal1:before {
+        top: 15px;
+        left: 13px;
+        width: 261px;
+        height: 82%;
+        background-size: 260px;
+    }
+    p.logo-contact-itam12 {
+        font-size: 13px;
+        
+    }
+
+    blockquote {
+        float: none;
+        font-size: 16px;
+       
+    }
+    img.comm-icon {
+       
+        margin-left: 40px;
+       
+    }
+
+    p.comm-right:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 65px;
+        width: 62%;
+        height: 100%;
+        border-bottom: 1px solid #c1c0c0;
+    }
+
+
+
+    .home-contact-itam43 {
+        margin-top: -13%;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+
+
+
+
+
+
+    
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+    .home {
+        
+        height: 58vh;
+        
+    }
+    .prev-main {
+        left: 10%;
+        top: 66%;
+    }
+    .next-main {
+        right: 10%;
+        top: 63%;
+    }
+
+
+    .home-contact-itam4 {
+       
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+
+    .img1 {
+        width: 44%;
+        margin-left: 30%;
+        margin-bottom: 47px;
+    }
+
+    .singtur {
+        width: 182px;
+        margin: auto;
+    }
+
+
+
+
+    .home-contact-itam44 {
+        position: absolute;
+        top: 36%;
+        left: 36%;
+        text-align: center;
+        color: white;
+    }
+
+
+
+
+
+
+
+
+    
+    .POSS {
+        position: absolute;
+        left: 19px;
+        top: 0px;
+    }
+
+    .number {
+     
+        margin: auto;
+    }
+
+    span.con-itam {
+        
+        margin-left: 0px;
+    }
+    p.icon-con {
+        
+        margin-bottom: 6px;
+        margin-left: 0px;
+    }
+
+    .pagination {
+        margin: 40px;
+        margin-left: 0px;
+    }
+
+    .about:before {
+      
+        left: 35%;
+       
+    }
+    ul.tophader-icon-right {
+      
+        margin-left: 39%;
+    }
+
+
+    img.ads {
+        width: 67%;
+        
+    }
+    .ads-cont {
+       
+        top: 51%;
+        left: 38%;
+       
+    }
+
+    .sidebar-post {
+        width: 542px;
+    }
+
+    .social {
+        width: 307px;
+        margin-left: 16%;
+    }
+
+
+
+
+    section.footer {
+        margin-top: 27%;
+    }
+
+    p.logo-contact-itam12 {
+        font-size: 14px;
+        
+    }
+
+    .flot-12 {
+        margin-left: 0px !important;
+    }
+
+    ul.tophader-itam-left li a {
+        font-size: 9px;
+    }
+    .tophader li a {
+      
+        padding: 7px 7px;
+    }
+
+    ul.tophader {
+        margin-bottom: 10px;
+    }
+
+    .home-contact-itam2 {
+        top: 246px;
+        position: relative;
+        height: 592px;
+        width: 100%;
+    }
+    
+    img.photo-cal1 {
+        position: relative;
+        width: 109%;
+    }
+    .photo-itma-cal1:before {
+        top: 17px;
+        left: 11px;
+        width: 192px;
+        height: 78%;
+        background-size: 191px;
+    }
+    .poss {
+        left: 23%;
+        top: 29%;
+    } 
+
+    blockquote {
+        float: none;
+        width: 580px;
+        font-size: 16px;
+        line-height: 29px;
+        font-weight: 600;
+        text-transform: inherit;
+        margin-top: 26px;
+    }
+    .comment-text {
+        margin-left: 70px;
+        width: auto;
+    }
+
+    img.comm-icon {
+        
+        margin-left: 123px;
+       
+    }
+    p.comm-right:before {
+     
+        left: 150px;
+        width: 46%;
+      
+    }
+    img.blog-img1 {
+       
+        margin-top: 20px;
+    }
+    .comment-title-itam {
+        overflow: hidden;
+    }
+
+
+
+
+    iframe {
+        width: 607px;
+    }
+    h2.cat {
+        width: 100px;
+        margin: 0 auto;
+    }
+
+
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+
+
+    .serviceshome2 {
+        display: none;
+    }
+
+
+    .prev-main {
+        left: 10%;
+        top: 66%;
+    }
+    .next-main {
+        right: 10%;
+        top: 63%;
+    }
+
+    .home {
+        
+        height: 56vh;
+      
+    }
+
+    .home-contact-itam {
+        width: 70%;
+       
+    }
+    ul.tophader-itam-left li a {
+        font-size: 10px;
+        padding: 0px;
+    }
+
+
+    ul.tophader-itam-left li {
+        padding: 0 11px;
+        
+    }
+    p.logo-contact-itam {
+        
+        font-size: 18px;
+       
+    }
+
+    .number {
+       
+        margin: auto;
+    }
+
+    span.con-itam {
+       
+        margin-left: 0px;
+    }
+    p.icon-con {
+      
+        margin-left: 0px;
+    }
+
+    .photo-itma-cal1:before {
+        top: 15px;
+        left: 13px;
+        width: 346px;
+        height: 82%;
+        background-size: 346px;
+    }
+
+
+
+
+
+
+
+
+    
+    .ads-cont {
+        top: 51%;
+        left: 31%;
+    }
+
+    .sidebar-post {
+        width: 300px;
+    }
+    .social {
+        width: 307px;
+        margin-left: 0%;
+    }
+
+
+    .navbar-toggler-icon {
+        margin-top: 10px;
+    }
+
+    section.footer {
+        margin-top: 27%;
+    }
+    p.logo-contact-itam12 {
+        font-size: 11px;
+        
+    }
+
+    ul.tophader-itam-left22 li {
+        padding: 0 11px;
+   
+    }
+
+    ul.tophader-itam-left22 li a {
+        font-size: 10px;
+    }
+
+    .tophader-icon-right li a {
+      
+        padding: 8px 2px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .poss {
+       
+        left: 39%;
+    }
+
+    .number {
+     
+        margin: auto;
+    }
+
+    span.con-itam {
+        
+        margin-left: 0px;
+    }
+    p.icon-con {
+        
+        margin-bottom: 6px;
+        margin-left: 0px;
+    }
+
+    .pagination {
+        margin: 40px;
+        margin-left: 0px;
+    }
+
+    .about:before {
+      
+        left: 30%;
+       
+    }
+    ul.tophader-icon-right {
+      
+        margin-left: 39%;
+    }
+
+
+
+
+
+    .comment-title-itam {
+        overflow: hidden;
+    }
+
+    .comment-text {
+        margin-left: 70px;
+        width: auto;
+    }
+    img.comm-icon {
+       
+        margin-left: 50px;
+      
+    }
+
+
+    blockquote {
+        float: none;
+        width: 580px;
+        font-size: 16px;
+        line-height: 29px;
+        font-weight: 600;
+        text-transform: inherit;
+        margin-top: 26px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    
+
+   
+.home-contact-itam2 {
+    top: 200px;
+    position: relative;
+    height: 521px;
+    width: 100%;
+}
+.home-contact-itam4 {
+       
+    margin-top: 20px;
+}
+
+.prev-main {
+    left: 0%;
+    top: 66%;
+}
+.next-main {
+    right: 2%;
+    top: 65%;
+}
+    .photo-itam-1.tiem1 {
+        margin-bottom: 35px;
+    }
+
+    .photo-itma-cal1:before {
+        top: 27px;
+        left: 24px;
+        width: 457px;
+        height: 82%;
+        background-size: 455px;
+    }
+
+
+    .comment-title-itam {
+        overflow: hidden;
+    }
+
+    .comment-text {
+        margin-left: 70px;
+        width: auto;
+    }
+    img.comm-icon {
+       
+        margin-left: 50px;
+      
+    }
+
+
+    blockquote {
+        float: none;
+        width: 580px;
+        font-size: 16px;
+        line-height: 29px;
+        font-weight: 600;
+        text-transform: inherit;
+        margin-top: 26px;
+    }
+    .cment-right-2 {
+        text-align: right;
+        width: 200px;
+    }
+
+    ul.tophader-icon-right {
+        display: none;
+    }
+    iframe {
+        width: auto;
+    }
+
+}
+
+
+
+
+
+/* SM Small Device :300px. */
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .home {
+        height: 86vh;
+    }
+    
+
+    .home-contact-itam2 {
+        top: 243px;
+        position: relative;
+        height: 547px;
+        width: 100%;
+    }
+    .prev-main {
+        left: 0%;
+        top: 66%;
+        display: none !important;
+    }
+
+
+    .next-main {
+        right: 0%;
+        top: 65%;
+        display: none !important;
+    }
+
+    .home-contact-itam44 {
+        position: absolute;
+        top: 20%;
+        left: 17%;
+        text-align: center;
+        color: white;
+    }
+    .photo-itam-1.tiem1 {
+        margin-bottom: 35px;
+    }
+
+    .photo-itma-cal1:before {
+        top: 27px;
+        left: 28px;
+        width: 289px;
+        height: 76%;
+        background-size: 288px;
+    }
+    .poss {
+        left: 27%;
+        top: 23%;
+    }
+
+
+    .comment-title-itam {
+        overflow: hidden;
+    }
+
+    .comment-text {
+        margin-left: 70px;
+        width: auto;
+    }
+    img.comm-icon {
+       
+        margin-left: 50px;
+      
+    }
+
+    blockquote {
+       
+        display: none;
+    }
+
+    .about:before {
+        left: 14%;
+        top: 71%;
+    }
+
+
+
+
+    ul.tophader-icon-right {
+        display: none;
+    }
+
+
+    .searchbar {
+        height: 51px;
+        background-color: #ffffff;
+        border-radius: 30px;
+        padding: 10px;
+        width: 235px;
+        border: 2px solid black;
+        margin: auto;
+    }
+
+    .button1 {
+     
+        width: 226px;
+       
+    }
+    h4.cont-bg {
+      
+        width: initial;
+
+    }
+
+    .home-contact-itam4 {
+        margin-bottom: 97px;
+    }
+    .gallery-item {
+        margin-bottom: 12%;
+    }
+    .gallery-area {
+        margin-top: -20%;
+    }
+    .img1 {
+        width: 44%;
+        margin-left: 30%;
+        margin-bottom: 47px;
+    }
+
+    .singtur {
+        width: 182px;
+        margin: auto;
+    }
+    iframe {
+        width: auto !important;
+    }
+
+
+}
